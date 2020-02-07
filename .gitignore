@@ -1,0 +1,6 @@
+*.bcsymbolmap
+Carthage/Checkouts
+Carthage/Build/.card.io-iOS-source.version
+Carthage/Build/iOS/CardIO.framework.dSYM
+CardIODynamic.xcodeproj/xcuserdata
+CardIODynamic.xcodeproj/project.xcworkspace/xcuserdata

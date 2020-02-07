@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32886C3923ED7FDC001CCF33 /* CardIOSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */; };
+		32886C3E23ED7FDC001CCF33 /* CardIOSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886C3D23ED7FDC001CCF33 /* CardIOSDKTests.m */; };
+		32886C4023ED7FDC001CCF33 /* CardIOSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 32886C3223ED7FDC001CCF33 /* CardIOSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32886C3A23ED7FDC001CCF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32886C2623ED7FDC001CCF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32886C2E23ED7FDC001CCF33;
+			remoteInfo = CardIOSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardIOSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32886C3223ED7FDC001CCF33 /* CardIOSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIOSDK.h; sourceTree = "<group>"; };
+		32886C3323ED7FDC001CCF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32886C3823ED7FDC001CCF33 /* CardIOSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIOSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32886C3D23ED7FDC001CCF33 /* CardIOSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardIOSDKTests.m; sourceTree = "<group>"; };
+		32886C3F23ED7FDC001CCF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32886C2C23ED7FDC001CCF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886C3523ED7FDC001CCF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886C3923ED7FDC001CCF33 /* CardIOSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32886C2523ED7FDC001CCF33 = {
+			isa = PBXGroup;
+			children = (
+				32886C3123ED7FDC001CCF33 /* CardIOSDK */,
+				32886C3C23ED7FDC001CCF33 /* CardIOSDKTests */,
+				32886C3023ED7FDC001CCF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32886C3023ED7FDC001CCF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */,
+				32886C3823ED7FDC001CCF33 /* CardIOSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32886C3123ED7FDC001CCF33 /* CardIOSDK */ = {
+			isa = PBXGroup;
+			children = (
+				32886C3223ED7FDC001CCF33 /* CardIOSDK.h */,
+				32886C3323ED7FDC001CCF33 /* Info.plist */,
+			);
+			path = CardIOSDK;
+			sourceTree = "<group>";
+		};
+		32886C3C23ED7FDC001CCF33 /* CardIOSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				32886C3D23ED7FDC001CCF33 /* CardIOSDKTests.m */,
+				32886C3F23ED7FDC001CCF33 /* Info.plist */,
+			);
+			path = CardIOSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32886C2A23ED7FDC001CCF33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886C4023ED7FDC001CCF33 /* CardIOSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32886C2E23ED7FDC001CCF33 /* CardIOSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32886C4323ED7FDC001CCF33 /* Build configuration list for PBXNativeTarget "CardIOSDK" */;
+			buildPhases = (
+				32886C2A23ED7FDC001CCF33 /* Headers */,
+				32886C2B23ED7FDC001CCF33 /* Sources */,
+				32886C2C23ED7FDC001CCF33 /* Frameworks */,
+				32886C2D23ED7FDC001CCF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardIOSDK;
+			productName = CardIOSDK;
+			productReference = 32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32886C3723ED7FDC001CCF33 /* CardIOSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32886C4623ED7FDC001CCF33 /* Build configuration list for PBXNativeTarget "CardIOSDKTests" */;
+			buildPhases = (
+				32886C3423ED7FDC001CCF33 /* Sources */,
+				32886C3523ED7FDC001CCF33 /* Frameworks */,
+				32886C3623ED7FDC001CCF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32886C3B23ED7FDC001CCF33 /* PBXTargetDependency */,
+			);
+			name = CardIOSDKTests;
+			productName = CardIOSDKTests;
+			productReference = 32886C3823ED7FDC001CCF33 /* CardIOSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32886C2623ED7FDC001CCF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = DKH;
+				TargetAttributes = {
+					32886C2E23ED7FDC001CCF33 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32886C3723ED7FDC001CCF33 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 32886C2923ED7FDC001CCF33 /* Build configuration list for PBXProject "CardIOSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32886C2523ED7FDC001CCF33;
+			productRefGroup = 32886C3023ED7FDC001CCF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32886C2E23ED7FDC001CCF33 /* CardIOSDK */,
+				32886C3723ED7FDC001CCF33 /* CardIOSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32886C2D23ED7FDC001CCF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886C3623ED7FDC001CCF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32886C2B23ED7FDC001CCF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886C3423ED7FDC001CCF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886C3E23ED7FDC001CCF33 /* CardIOSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32886C3B23ED7FDC001CCF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32886C2E23ED7FDC001CCF33 /* CardIOSDK */;
+			targetProxy = 32886C3A23ED7FDC001CCF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32886C4123ED7FDC001CCF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32886C4223ED7FDC001CCF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32886C4423ED7FDC001CCF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RV64AU4P26;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CardIOSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32886C4523ED7FDC001CCF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RV64AU4P26;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CardIOSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32886C4723ED7FDC001CCF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV64AU4P26;
+				INFOPLIST_FILE = CardIOSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32886C4823ED7FDC001CCF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV64AU4P26;
+				INFOPLIST_FILE = CardIOSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32886C2923ED7FDC001CCF33 /* Build configuration list for PBXProject "CardIOSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886C4123ED7FDC001CCF33 /* Debug */,
+				32886C4223ED7FDC001CCF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32886C4323ED7FDC001CCF33 /* Build configuration list for PBXNativeTarget "CardIOSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886C4423ED7FDC001CCF33 /* Debug */,
+				32886C4523ED7FDC001CCF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32886C4623ED7FDC001CCF33 /* Build configuration list for PBXNativeTarget "CardIOSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886C4723ED7FDC001CCF33 /* Debug */,
+				32886C4823ED7FDC001CCF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32886C2623ED7FDC001CCF33 /* Project object */;
+}
