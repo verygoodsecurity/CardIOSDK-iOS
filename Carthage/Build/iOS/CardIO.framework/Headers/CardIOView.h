@@ -6,6 +6,7 @@
 #import <UIKit/UIKit.h>
 #import "CardIOViewDelegate.h"
 #import "CardIODetectionMode.h"
+#import <AVFoundation/AVCaptureDevice.h>
 
 /// CardIOView is one of two main entry points into the card.io SDK.
 /// @see CardIOPaymentViewController
@@ -20,6 +21,8 @@
 
 #pragma mark - Properties you MAY set
 
+@property(nonatomic, assign, readwrite) AVCaptureDevicePosition preferredDevicePosition;
+
 /// The preferred language for all strings appearing in the user interface.
 /// If not set, or if set to nil, defaults to the device's current language setting.
 ///
@@ -32,7 +35,7 @@
 /// E.g., specifying "en" on a device set to "English" and "United Kingdom" will result in "en_GB".
 ///
 /// These localizations are currently included:
-/// ar,da,de,en,en_AU,en_GB,es,es_MX,fr,he,is,it,ja,ko,ms,nb,nl,pl,pt,pt_BR,ru,sv,th,tr,zh-Hans,zh-Hant,zh-Hant_TW.
+/// ar,da,de,en,en_AU,en_GB,es,es_MX,fi,fr,he,is,it,ja,ko,ms,nb,nl,pl,pt,pt_BR,ru,sv,th,tr,zh-Hans,zh-Hant,zh-Hant_TW.
 @property(nonatomic, copy, readwrite) NSString *languageOrLocale;
 
 /// Alter the card guide (bracket) color. Opaque colors recommended.

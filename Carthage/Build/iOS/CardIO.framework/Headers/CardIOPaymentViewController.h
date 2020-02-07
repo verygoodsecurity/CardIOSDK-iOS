@@ -6,10 +6,13 @@
 #import <UIKit/UIKit.h>
 #import "CardIOPaymentViewControllerDelegate.h"
 #import "CardIODetectionMode.h"
+#import <AVFoundation/AVCaptureDevice.h>
 
 /// CardIOPaymentViewController is one of two main entry points into the card.io SDK.
 /// @see CardIOView
 @interface CardIOPaymentViewController : UINavigationController
+
+- (id)initWithPaymentDelegate:(id<CardIOPaymentViewControllerDelegate>)aDelegate scanningEnabled:(BOOL)scanningEnabled preferredDevicePosition:(AVCaptureDevicePosition)preferredDevicePosition;
 
 /// Initializer for scanning.
 /// If scanning is not supported by the user's device, card.io will offer manual entry.
@@ -37,7 +40,7 @@
 /// E.g., specifying "en" on a device set to "English" and "United Kingdom" will result in "en_GB".
 ///
 /// These localizations are currently included:
-/// ar,da,de,en,en_AU,en_GB,es,es_MX,fr,he,is,it,ja,ko,ms,nb,nl,pl,pt,pt_BR,ru,sv,th,tr,zh-Hans,zh-Hant,zh-Hant_TW.
+/// ar,da,de,en,en_AU,en_GB,es,es_MX,fi,fr,he,is,it,ja,ko,ms,nb,nl,pl,pt,pt_BR,ru,sv,th,tr,zh-Hans,zh-Hant,zh-Hant_TW.
 @property(nonatomic, copy, readwrite) NSString *languageOrLocale;
 
 /// @see keepStatusBarStyleForCardIO
