@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.authors               = { 'VGS' => 'support@verygoodsecurity.com', 'CardIO' => 'support@paypal.com' }
     spec.homepage              = 'https://github.com/verygoodsecurity/vgs-collect-ios'
     spec.source                = { :git => 'https://github.com/dmytrokhl/CardIOSDK.git', :tag => "#{spec.version}" }
-    spec.preserve_paths        = 'Carthage/Build/iOS/LICENSE.md'
+    spec.preserve_paths        = 'Carthage/Build/iOS/*.md'
     spec.source_files          = 'CardIOSDK/CardIOSDK.h'
     spec.vendored_framework    = 'Carthage/Build/iOS/CardIO.framework'
     
