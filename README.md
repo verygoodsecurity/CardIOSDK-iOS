@@ -22,9 +22,10 @@ pod 'CardIOSDK'
 
 # Useful links
 
- - **card.io** iOS library - https://github.com/card-io/card.io-iOS-SDK
- - **card.io** iOS source code - https://github.com/card-io/card.io-iOS-source
- - Scan and collect creadit cards data securelly - https://github.com/verygoodsecurity/vgs-collect-ios
+ - **Original card.io** iOS library - https://github.com/card-io/card.io-iOS-SDK
+ - **Original card.io** iOS source code - https://github.com/card-io/card.io-iOS-source
+ - **CardIOSDK** source code - https://github.com/verygoodsecurity/card.io-iOS-source
+ - **VGSCollectSDK** - scan and collect creadit cards data securelly - https://github.com/verygoodsecurity/vgs-collect-ios
  
  
  *Pull requests with new features are welcome!*
