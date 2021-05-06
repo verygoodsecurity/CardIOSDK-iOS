@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		32886C3923ED7FDC001CCF33 /* CardIOSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */; };
 		32886C3E23ED7FDC001CCF33 /* CardIOSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886C3D23ED7FDC001CCF33 /* CardIOSDKTests.m */; };
-		32886C4023ED7FDC001CCF33 /* CardIOSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 32886C3223ED7FDC001CCF33 /* CardIOSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446DA62F2643F55600DDBD5E /* CardIO.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446DA62C2643F55600DDBD5E /* CardIO.xcframework */; };
+		446DA6302643F55600DDBD5E /* CardIOSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DA62D2643F55600DDBD5E /* CardIOSDK.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +25,12 @@
 
 /* Begin PBXFileReference section */
 		32886C2F23ED7FDC001CCF33 /* CardIOSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardIOSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32886C3223ED7FDC001CCF33 /* CardIOSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIOSDK.h; sourceTree = "<group>"; };
-		32886C3323ED7FDC001CCF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32886C3823ED7FDC001CCF33 /* CardIOSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIOSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32886C3D23ED7FDC001CCF33 /* CardIOSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardIOSDKTests.m; sourceTree = "<group>"; };
 		32886C3F23ED7FDC001CCF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446DA62C2643F55600DDBD5E /* CardIO.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CardIO.xcframework; sourceTree = "<group>"; };
+		446DA62D2643F55600DDBD5E /* CardIOSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOSDK.h; sourceTree = "<group>"; };
+		446DA62E2643F55600DDBD5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446DA62F2643F55600DDBD5E /* CardIO.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +56,7 @@
 		32886C2523ED7FDC001CCF33 = {
 			isa = PBXGroup;
 			children = (
-				32886C3123ED7FDC001CCF33 /* CardIOSDK */,
+				446DA62A2643F55600DDBD5E /* Sources */,
 				32886C3C23ED7FDC001CCF33 /* CardIOSDKTests */,
 				32886C3023ED7FDC001CCF33 /* Products */,
 			);
@@ -68,15 +71,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32886C3123ED7FDC001CCF33 /* CardIOSDK */ = {
-			isa = PBXGroup;
-			children = (
-				32886C3223ED7FDC001CCF33 /* CardIOSDK.h */,
-				32886C3323ED7FDC001CCF33 /* Info.plist */,
-			);
-			path = CardIOSDK;
-			sourceTree = "<group>";
-		};
 		32886C3C23ED7FDC001CCF33 /* CardIOSDKTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +80,24 @@
 			path = CardIOSDKTests;
 			sourceTree = "<group>";
 		};
+		446DA62A2643F55600DDBD5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				446DA62B2643F55600DDBD5E /* CardIOSDK */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		446DA62B2643F55600DDBD5E /* CardIOSDK */ = {
+			isa = PBXGroup;
+			children = (
+				446DA62C2643F55600DDBD5E /* CardIO.xcframework */,
+				446DA62D2643F55600DDBD5E /* CardIOSDK.h */,
+				446DA62E2643F55600DDBD5E /* Info.plist */,
+			);
+			path = CardIOSDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +105,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32886C4023ED7FDC001CCF33 /* CardIOSDK.h in Headers */,
+				446DA6302643F55600DDBD5E /* CardIOSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +355,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CardIOSDK/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CardIOSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -351,7 +363,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.5.4;
+				MARKETING_VERSION = 5.5.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -369,7 +381,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CardIOSDK/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CardIOSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,7 +389,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.5.4;
+				MARKETING_VERSION = 5.5.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkh.io.CardIOSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
